@@ -1,0 +1,92 @@
+*{
+    margin-top: 0px;
+  }
+  .heading{
+    height: 4000px;
+    background: linear-gradient(to bottom right, rgb(238, 145, 38)
+    ,white,green);
+    text-align: center;
+    font-size: x-large;
+    
+  }
+  
+  ul {
+  
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+  }
+  /* navigation bar content - individual items - li */
+  ul li {
+    list-style: none;
+    
+  }
+  /* navigation bar content - link text styling inside li - a */
+  ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 238, 238);
+    font-size: 0.875em;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    animation: ani1 10s infinite;
+  }
+  /* navigation bar content - link text styling inside
+  li - a with hover selector */
+  ul li a:hover {
+    border-bottom: 3px solid #fff;
+  }
+
+
+  @keyframes ani1{
+    0%{
+        color:white;
+    }
+    5%{
+        color:rgb(255, 75, 75);
+    }
+    10%{
+        color:rgb(255, 25, 25);
+    }
+    15%{
+        color:rgb(252, 106, 39);
+    }
+    20%{
+        color:rgb(255, 133, 34);
+    }
+    25%{
+        color:rgb(253, 255, 163);
+    }
+    30%{
+        color:rgb(53, 226, 0);
+    }
+    35%{
+        color:rgb(75, 255, 201);
+    }
+    40%{
+        color:rgb(9, 247, 247);
+    }
+    45%{
+        color:rgb(75, 147, 255);
+    }
+    50%{
+        color:rgb(86, 69, 243);
+    }
+    55%{
+        color:rgb(174, 75, 255);
+    }
+    60%{
+        color:rgb(255, 75, 216);
+    }
+    70%{
+        color:rgb(255, 75, 135);
+    }
+    80%{
+        color:rgb(255, 75, 75);
+    }
+    100%{
+     color: white;
+    }
+}

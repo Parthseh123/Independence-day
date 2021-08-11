@@ -1,0 +1,141 @@
+*{
+  margin-top: 0px;
+}
+.heading{
+  height: 5500px;
+  background: linear-gradient(to bottom right, rgb(238, 145, 38)
+  ,white,green);
+  text-align: center;
+  font-size: x-large;
+  
+}
+
+ul {
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+/* navigation bar content - individual items - li */
+ul li {
+  list-style: none;
+}
+/* navigation bar content - link text styling inside li - a */
+ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  font-size: 0.875em;
+  text-decoration: none;
+  padding: 1em;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  animation: ani1 10s infinite;
+}
+/* navigation bar content - link text styling inside
+li - a with hover selector */
+ul li a:hover {
+  border-bottom: 3px solid #fff;
+}
+  
+  
+  .container {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+ .container h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+  }
+  
+ .container li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+ .container li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+ .container .emoji {
+    display: none;
+    padding: 1rem;
+  }
+  
+ .container .emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+  }
+  
+  @media all and (max-width: 768px) {
+ .container   h1 {
+      font-size: 1.5rem;
+    }
+    
+ .container   li {
+      font-size: 1.125rem;
+      padding: .75rem;
+    }
+    
+  .container  li span {
+      font-size: 3.375rem;
+    }}
+
+
+    @keyframes ani1 {
+      0%{
+          color:white;
+      }
+      5%{
+          color:rgb(255, 75, 75);
+      }
+      10%{
+          color:rgb(255, 25, 25);
+      }
+      15%{
+          color:rgb(252, 106, 39);
+      }
+      20%{
+          color:rgb(255, 133, 34);
+      }
+      25%{
+          color:rgb(253, 255, 163);
+      }
+      30%{
+          color:rgb(53, 226, 0);
+      }
+      35%{
+          color:rgb(75, 255, 201);
+      }
+      40%{
+          color:rgb(9, 247, 247);
+      }
+      45%{
+          color:rgb(75, 147, 255);
+      }
+      50%{
+          color:rgb(86, 69, 243);
+      }
+      55%{
+          color:rgb(174, 75, 255);
+      }
+      60%{
+          color:rgb(255, 75, 216);
+      }
+      70%{
+          color:rgb(255, 75, 135);
+      }
+      80%{
+          color:rgb(255, 75, 75);
+      }
+      100%{
+       color: white;
+      }
+    }
